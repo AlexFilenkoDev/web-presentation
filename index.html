@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="slider">
+        <!--Фоновое изображение-->
+        <img class="slider-bg" src="source/images/bg.png" alt="slider background">
+
+        <!-- Элементы навигации и лого, должны быть на всех слайдах -->
+        <div class="home-panel">
+            <div class="home-button">
+                <img src="source/images/home-icon.svg" alt="home icon">
+            </div>
+            <div class="vertical-line"></div>
+            <div class="project-name">project</div>
+        </div>
+        <div class="onpoint-logo">
+            <img src="source/images/onpoint-logo.png" alt="onpoint logo">
+        </div>
+
+        <!-- slide-1 -->
+        <div class="slide-1 slide">
+            <div class="text-block">
+                <div class="hello-text">привет,</div>
+                <div class="describe-text">это <span>не</span> коммерческое</div>
+                <div class="describe-text-button">
+                    <div class="text">задание</div>
+                    <div class="button next">
+                        <div class="button-icon">
+                            <img src="source/images/slide-1/arrow-right.svg" alt="next slide">
+                        </div>
+                        <div class="button-text">Что дальше?</div>
+                    </div>
+                </div>
+            </div>
+            <img id="a" class="bg-image" src="source/images/slide-1/left-top-bac.png" alt="">
+            <img id="b" class="bg-image anim" src="source/images/slide-1/left-bottom-bac.png" alt="">
+            <img id="c" class="bg-image" src="source/images/slide-1/left-bottom-sperm.png" alt="">
+            <img id="d" class="bg-image" src="source/images/slide-1/bottom-blur-bac.png" alt="">
+            <img id="e" class="bg-image anim" src="source/images/slide-1/right-bottom-bac.png" alt="">
+            <img id="f" class="bg-image anim" src="source/images/slide-1/right-middle-bac.png" alt="">
+            <img id="g" class="bg-image" src="source/images/slide-1/right-top-sperm.png" alt="">
+            <img id="h" class="bg-image anim" src="source/images/slide-1/right-blur-bac.png" alt="">
+            <img id="i" class="bg-image anim" src="source/images/slide-1/right-top-bac.png" alt="">
+        </div>
+
+        <!-- slide-2 -->
+        <div class="slide-2 slide">
+            <div class="content">
+                <div class="title">текст<br>сообщения</div>
+                <div class="container">
+                    <div class="range-slider">
+                        <input type="range" orient="vertical" min="0" max="100" />
+                        <div class="range-slider__bar"></div>
+                        <div class="range-slider__thumb"></div>
+                    </div>
+                    <div class="shadow">
+                        <div class="text-area">
+                            <strong>Сперматозоид</strong> (от др.-греч. σπέρμα род. п. σπέρματος здесь «сперма»
+                            + ζωή «жизнь» + εδος «вид, облик», лат. spermatozoon, spermium) —
+                            мужская половая клетка (гамета) размножающихся посредством
+                            оогамии организмов.<br>
+                            Сперматозоиды обычно обладают способностью к активному дви-
+                            жению и служат для оплодотворения женской гаметы — яйцеклетки.
+                            Обычно они значительно меньше яйцеклеток, поскольку не содержат
+                            столь значительного количества цитоплазмы и производятся орга-
+                            низмом одновременно в значительном количестве.<br>
+                            Типичное строение сперматозоида отражает форму общего предка
+                            животных и грибов: одноклеточный ядерный организм, передвига-
+                            ющийся за счёт жгутика в задней части, используя его подобно
+                            хвосту. Обширная группа происходящих от него организмов вклю-
+                            чает в себя животных, большинство грибов и некоторые группы
+                            протистов и называется кланом заднежгутиковых. Большинство
+                            других эукариот со жгутиками имеют их в передней части.<br>
+                            В широком смысле слова по традиции сперматозоидами иногда на-
+                            зывают мужские половые клетки также у растений, к ним применя-
+                            ют также термины спермии или антерозоиды (их применяют также
+                            к традиционно сближавшимся с растениями грибам).
+                            https://ru.wikipedia.org/wiki/сперматозоид
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img id="a" class="bg-image anim" src="source/images/slide-2/sperm-1.png" alt="background image">
+            <img id="b" class="bg-image anim" src="source/images/slide-2/sperm-2.png" alt="background image">
+            <img id="c" class="bg-image anim" src="source/images/slide-2/sperm-3.png" alt="background image">
+            <img id="d" class="bg-image anim" src="source/images/slide-2/sperm-4.png" alt="background image">
+            <img id="e" class="bg-image anim" src="source/images/slide-2/sperm-5.png" alt="background image">
+        </div>
+
+        <!-- slide-3 -->
+        <div class="slide-3 slide">
+            <div class="title">
+                <p>ключевое сообщение</p>
+                <p>BREND<span>XY</span></p>
+            </div>
+            <div class="body">
+                <div class="column column-1">
+                    <img class="item-icon" src="source/images/slide-3/icon-1.png" alt="after eating">
+                    <div class="item">
+                        3 раза в день после
+                        еды. После приема
+                        препарата рекомен-
+                        дуется воздержаться
+                        от пищи и напитков
+                        в течение 1 часа
+                    </div>
+                </div>
+                <div class="column column-2">
+                    <img class="item-icon" src="source/images/slide-3/icon-2.png" alt="course of treatment">
+                    <div class="item">
+                        Курс лечения от
+                        7 дней до 1 мес.
+                    </div>
+                    <div class="button more">
+                        <div class="button-icon">
+                            <img src="source/images/slide-3/plus.svg" alt="more information">
+                        </div>
+                        <div class="button-text">Подробнее</div>
+                    </div>
+                </div>
+            </div>
+            <div class="popup" data-active="false">
+                <div class="bg opacity"></div>
+                <div class="container opacity">
+                    <div class="sections">
+                        <div class="items-section first" data-active="true">
+                            <div class="item item-1">
+                                <div class="number">01</div>
+                                <div class="text">Самое важное и ключевое преимущество
+                                    нашего препарата</div>
+                            </div>
+                            <div class="item item-2">
+                                <div class="number">02</div>
+                                <div class="text">
+                                    Второе по важности преимущество
+                                </div>
+                            </div>
+                            <div class="item item-3">
+                                <div class="number">03</div>
+                                <div class="text">
+                                    Ещё одно важное преимущество препарата
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items-section second" data-active="false">
+                            <div class="item item-4">
+                                <div class="number">04</div>
+                                <div class="text">
+                                    Ещё одно не менее важное преимущество препарата
+                                </div>
+                            </div>
+                            <div class="item item-5">
+                                <div class="number">05</div>
+                                <div class="text">
+                                    Ещё одно важное преимущество препарата
+                                </div>
+                            </div>
+                            <div class="item item-6">
+                                <div class="number">06</div>
+                                <div class="text">
+                                    Ещё одно важное преимущество препарата
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paginate-panel">
+                        <div class="arrow arrow-left">
+                            <img src="source/images/slide-3/left-arrow.svg" alt="previous">
+                        </div>
+                        <div class="points">
+                            <div class="point active"></div>
+                            <div class="point"></div>
+                        </div>
+                        <div class=" rrow arrow-right">
+                            <img src="source/images/slide-3/right-arrow.svg" alt="next">
+                        </div>
+                    </div>
+                    <div class="close opacity">
+                        <img src="source/images/slide-3/close.svg" alt="close">
+                    </div>
+                </div>
+
+            </div>
+            <img id="a" class="bg-image anim" src="source/images/slide-3/1.png" alt="background image">
+            <img id="b" class="bg-image anim" src="source/images/slide-3/2.png" alt="background image">
+            <img id="c" class="bg-image anim" src="source/images/slide-3/3.png" alt="background image">
+            <img id="d" class="bg-image anim" src="source/images/slide-3/4.png" alt="background image">
+            <img id="e" class="bg-image anim" src="source/images/slide-3/5.png" alt="background image">
+            <img id="f" class="bg-image anim" src="source/images/slide-3/6.png" alt="background image">
+            <img id="g" class="bg-image anim" src="source/images/slide-3/7.png" alt="background image">
+            <img id="h" class="bg-image anim" src="source/images/slide-3/8.png" alt="background image">
+            <img id="i" class="bg-image anim" src="source/images/slide-3/bottle.png" alt="background image">
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="main.js"></script>
+</body>
+
+</html>
